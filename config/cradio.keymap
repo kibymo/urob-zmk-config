@@ -58,6 +58,11 @@
             bindings = <&tog 3>;
         };
 
+        combo_under {
+            bindings = <&kp UNDER>;
+            key-positions = <5 6>;
+        };
+
         combo_minus {
             bindings = <&kp MINUS>;
             key-positions = <15 16>;
@@ -76,11 +81,6 @@
         combo_dqt {
             bindings = <&kp DQT>;
             key-positions = <8 9>;
-        };
-
-        combo_under {
-            bindings = <&kp UNDER>;
-            key-positions = <5 6>;
         };
 
         combo_sqt {
